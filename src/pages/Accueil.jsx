@@ -13,7 +13,7 @@ export default function Accueil() {
           bg-gradient-to-r from-emerald-400 to-green-600
           bg-clip-text text-transparent
         ">
-          Cours POO — Conceptuel + Python
+          Cours POO — Conceptuel
         </h1>
 
         {/* Subtitle */}
@@ -21,7 +21,7 @@ export default function Accueil() {
           text-zinc-400 mb-10
           text-sm sm:text-base md:text-lg
         ">
-          Modélisation objet → Implémentation Python → TP → QCM
+          Modélisation objet → Implémentation Python → TP
         </p>
 
         {/* Button */}
