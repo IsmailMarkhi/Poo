@@ -10,18 +10,25 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-zinc-900 text-zinc-100">
+      <div className="min-h-screen bg-zinc-900 text-zinc-100 flex flex-col">
+
         {/* <Navbar /> */}
 
-        <Routes>
-          <Route path="/" element={<Accueil />} />
-          <Route path="/cours" element={<Cours />} />
-          <Route path="/lecon/:id" element={<Lecon />} />
-          <Route path="/tp/:id" element={<TP />} />
-          <Route path="/efm" element={<EFM />} />
-        </Routes>
+        {/* MAIN CONTENT */}
+        <div className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Accueil />} />
+            <Route path="/cours" element={<Cours />} />
+            <Route path="/lecon/:id" element={<Lecon />} />
+            <Route path="/tp/:id" element={<TP />} />
+            <Route path="/efm" element={<EFM />} />
+          </Routes>
+        </div>
+
+        {/* FOOTER */}
+        <Footer />
+
       </div>
-      <Footer/>
     </BrowserRouter>
   );
 }
