@@ -32,6 +32,15 @@ export default function Footer() {
             Instagram
           </a>
 
+          <a
+            href="https://www.linkedin.com/in/ismail-markhi-a67033317/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-zinc-400 hover:text-white transition"
+          >
+            LinkedIn
+          </a>          
+
         </div>
 
         {/* Copyright */}
