@@ -8,7 +8,7 @@ export default function Footer() {
         <p className="text-zinc-300">
           Créé par <span className="font-semibold text-emerald-500">
             ISMAIL MARKHI
-          </span> en utilisant des outils IA
+          </span>
         </p>
 
         {/* Links */}
