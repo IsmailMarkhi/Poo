@@ -25,7 +25,7 @@ export default function Footer() {
 
           <a
             href="https://www.instagram.com/ismailmarkhi"
-            target="_blank
+            target="_blank"
             rel="noopener noreferrer"
             className="text-zinc-400 hover:text-white transition"
           >
