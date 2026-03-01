@@ -20,7 +20,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="text-zinc-400 hover:text-white transition"
           >
-            GitHub.
+            GitHub
           </a>
 
           <a
