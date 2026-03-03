@@ -18,7 +18,7 @@ export default function Accueil() {
 
         {/* Subtitle */}
         <p className="
-          text-zinc-400 mb-10
+          text-znc-400 mb-10
           text-sm sm:text-base md:text-lg
         ">
           Modélisation objet → Implémentation Python → TP
